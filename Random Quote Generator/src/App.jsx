@@ -8,6 +8,7 @@ export default function App() {
   const [loading, setLoading] = useState(false);
 
   const fetchQuote = async () => {
+    if(loading) return;
     setLoading(true); // Start loading
     const url = `https://api.api-ninjas.com/v1/quotes?category=${category}`;
     const API_KEY = import.meta.env.VITE_API_KEY;
