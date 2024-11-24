@@ -48,8 +48,8 @@ export default function App() {
         Random Quote Generator
       </h1>
       <div className="flex justify-center mt-16">
-        <div className="border-2 border-gray-500 lg:px-16 lg:py-20 md:px-16 md:py-20 sm:px-5 sm:py-10 shadow-lg shadow-blue-950 w-full max-w-xl mx-auto rounded-md">
-          <h2 className="text-center text-2xl font-bold">QUOTEkk</h2>
+        <div className="border-2 border-gray-500 lg:px-16 lg:py-20 md:px-16 md:py-20 sm-500:mx-3 sm-500:h-96 sm-500:p-8 shadow-lg shadow-blue-950 w-full max-w-xl mx-auto rounded-md">
+          <h2 className="text-center text-2xl font-bold">QUOTE</h2>
 
           {/* Category Dropdown */}
           <select className="mb-4" onChange={SelectCategory}>
